@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "express": "^4.16.4",
     "fetch": "^1.1.0",
     "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.22",
     "uuid": "9.0.0"
   }
 }
